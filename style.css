@@ -50,6 +50,9 @@ body{
     margin-right:auto;
     margin-left:2rem;
 }
+
+
+
 /* banner */
 .main{
     background-image: url("resources/images/background_image.jpg");
@@ -170,16 +173,25 @@ img.img-1, img.img-2 {
 
 
 footer{
-    margin-bottom: 10px;
+    font-family:"Space Mono", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom:5px;
+ }
 
-    font-size: 1.25rem;
-}
+ footer a{
+    text-decoration: solid #f9CE21 underline ;
+    transition: background-color 0.8s;
+    color:black;
+ }
+ 
+ footer a:hover{
+    background-color:#f9CE21;
+ }
 
-footer a{
-    text-decoration: none;
-    color: black;
-}
-/* ----------- iPhone 12 Mini ----------- */
+
+
+ /* ----------- iPhone 12 Mini ----------- */
 
 /* 2340x1080 pixels at 476ppi */ 
 @media only screen
